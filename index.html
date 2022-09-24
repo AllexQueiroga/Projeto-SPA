@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>SPA</title>
+</head>
+<body>
+    <div class="images">
+        <img src="./images/mountains-universe-1.png" class="image1">
+        <img src="./images/mountains-universe02.png" class="image2 hidden">
+        <img src="./images/mountains-universe-3.png" class="image3 hidden">
+    </div>
+    <header>     
+        <img src="../images/Vector.png" alt="logo como Vector" class="logo">
+        <nav class="menu">
+            <a href="/" class="home" onclick="route()">Home</a>
+            <a href="/universe" class="universe" onclick="route()">O Universo</a>
+            <a href="/exploration" class="exploration" onclick="route()">Exploração</a>
+        </nav>
+    </header>
+   
+    <div id="app"></div>
+
+    
+    <script src="js/script.js" type="module"></script>
+    <script src="js/elementor.js" type="module"></script>
+</body>
+</html>
